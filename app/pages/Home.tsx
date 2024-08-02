@@ -57,19 +57,18 @@ const HomePage: React.FC = () => {
       <div className="container greeting">
         <div className="row">
           <div className="col-md-6">
-            <h1>
+            <h1 className='text-blue-200'>
               Создай сайт для своего бизнеса.<small></small>
             </h1>
           </div>
           <div className="col-md-6 online_request_block">
             <form
-              className="online_request formRequest"
-              action="/wp-admin/admin-ajax.php"
+              className="online_request formRequest bg-[#2630b969]"
               method="post"
               name="myform"
               autoComplete="off"
             >
-              <span>Он-лайн заявка</span>
+              <span>Онлайн заявка</span>
               <h6 className="reuqest_title">
                 Оставьте свою заявку он-лайн и получите до 10% скидки
               </h6>
@@ -85,7 +84,7 @@ const HomePage: React.FC = () => {
                 <input
                   type="tel"
                   name="userphone"
-                  placeholder="Контактный телефон: 998991234567"
+                  placeholder="Номер телефона:"
                   className="input_reuqest userphone"
                   autoComplete="off"
                   required
