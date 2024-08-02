@@ -15,21 +15,15 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const handleLinkLoad: React.ReactEventHandler<HTMLLinkElement> = (event) => {
-    const link = event.target as HTMLLinkElement;
-    link.rel = 'stylesheet';
-  };
   return (
-
     <html lang="en">
-        <head>
-        <link 
-        rel="stylesheet">
-        href="https://devio.uz/wp-content/cache/autoptimize/css/autoptimize_cf1fe069f922f0e795d1673d5df16bcb.css"
-        </link>
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://devio.uz/wp-content/cache/autoptimize/css/autoptimize_cf1fe069f922f0e795d1673d5df16bcb.css"
+        />
       </head>
       <body className={inter.className}>{children}</body>
     </html>
-    
   );
 }
