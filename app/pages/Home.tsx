@@ -57,7 +57,7 @@ const HomePage: React.FC = () => {
       <div className="container greeting">
         <div className="row">
           <div className="col-md-6">
-            <h1 className='text-blue-200'>
+            <h1 className='text-blue-100'>
               Создай сайт для своего бизнеса.<small></small>
             </h1>
           </div>
@@ -68,8 +68,8 @@ const HomePage: React.FC = () => {
               name="myform"
               autoComplete="off"
             >
-              <span>Онлайн заявка</span>
-              <h6 className="reuqest_title">
+              <span >Онлайн заявка</span>
+              <h6 className="reuqest_title text-red-600">
                 Оставьте свою заявку он-лайн и получите до 10% скидки
               </h6>
               <div className="form_elems">
