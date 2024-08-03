@@ -79,7 +79,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter: blur(10px); /* регулировать уровень размытия по необходимости */
-    z-index: -1; /* чтобы псевдоэлемент оставался за основным содержимым */
-    mix-blend-mode: multiply;  /* чтобы псевдоэлемент оставался за основным содержимым */
+    filter: blur(10px); 
+    z-index: -1; 
+    mix-blend-mode: multiply; 
 }

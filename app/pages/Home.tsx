@@ -53,8 +53,8 @@ const HomePage: React.FC = () => {
 
       <div className="container greeting">
         <div className="row">
-          <div className="col-md-6">
-            <h1 className='text-black font-bold'>
+          <div className="col-md-6 w-12 bg-[#2630b969] h-[170px] rounded-2xl">
+            <h1 className='text-white font-bold'>
               Создай сайт для своего бизнеса.<small></small>
             </h1>
           </div>
