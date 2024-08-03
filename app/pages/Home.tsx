@@ -13,15 +13,12 @@ const HomePage: React.FC = () => {
           >
             <ol className="carousel-indicators">
               <li data-target="#carousel-1" data-slide-to="0" className=""></li>
-              <li data-target="#carousel-1" data-slide-to="1" className="active"></li>
-              <li data-target="#carousel-1" data-slide-to="2" className=""></li>
+              <li data-target="#carousel-1" data-slide-to="1" className=""></li>
+              <li data-target="#carousel-1" data-slide-to="2" className="elem"></li>
               <li data-target="#carousel-1" data-slide-to="3" className=""></li>
             </ol>
             <div className="carousel-inner" role="listbox">
-              <div className="item"></div>
-              <div className="item active"></div>
-              <div className="item"></div>
-              <div className="item"></div>
+              
             </div>
             <img
               src="https://devio.uz/wp-content/themes/devio/images/mouse.png"
@@ -57,7 +54,7 @@ const HomePage: React.FC = () => {
       <div className="container greeting">
         <div className="row">
           <div className="col-md-6">
-            <h1 className='text-blue-100'>
+            <h1 className='text-black font-bold'>
               Создай сайт для своего бизнеса.<small></small>
             </h1>
           </div>
